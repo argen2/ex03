@@ -5,7 +5,7 @@
 // Ecrire Fizzbuzz pour les 2 combinés
 
 main() { 
-    for (int i = 0; i < 100; i++) {
+    for (int i = 1; i <= 100; i++) {
         if ((i % 15) == 0) {
             print('FizzBuzz');
         } else if ((i % 5) == 0) {
